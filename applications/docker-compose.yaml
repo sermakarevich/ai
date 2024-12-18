@@ -1,0 +1,29 @@
+services:
+
+  ######################### insight-engine #########################
+  insight-engine:
+    image: insight_engine:latest
+    build:
+      context: ../
+      dockerfile: ./applications/insight_engine/Dockerfile
+    env_file:
+      - ./insight_engine/docker-compose.env
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./insight_engine/src:/src
+      - ./insight_engine/requirements:/requirements
+      - ./db:/db
+
+  ######################### insight-crawler #########################
+  insight-crawler:
+    image: insight_crawler:latest
+    build:
+      context: ../
+      dockerfile: ./applications/insight_crawler/Dockerfile
+    env_file:
+      - ./insight_crawler/docker-compose.env
+    volumes:
+      - ./insight_crawler/src:/src
+      - ./insight_crawler/requirements:/requirements
+      - ./db:/db

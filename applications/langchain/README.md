@@ -1,0 +1,5 @@
+- ollama should be installed
+- ollama llama3.1/3.3 should be pulled - or any other model of preference with further updating model name in noteboks
+- keys:
+    - OPENAI_API_KEY
+    - TAVILY_API_KEY

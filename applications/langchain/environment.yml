@@ -1,0 +1,15 @@
+name: langchain
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - pip:
+    - langchain
+    - langchain-ollama
+    - langchain-community
+    - langchain-openai
+    - langgraph
+    - jupyterlab
