@@ -9,6 +9,6 @@ env-update:
 env-remove:
 	conda env remove --name ${SERVICE}
 env-export:
-	conda env export > environment.yml
+	conda env export > environment_export.yml
 jupyter-kernel:
 	python -m ipykernel install --user --name=${SERVICE} --display-name=${SERVICE}
