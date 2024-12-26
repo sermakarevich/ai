@@ -1,0 +1,16 @@
+name: langgraph
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - pip:
+    - grandalf
+    - langchain
+    - langgraph
+    - langchain_ollama
+    - langchain_openai
+    - tavily-python 
+    - langchain_community

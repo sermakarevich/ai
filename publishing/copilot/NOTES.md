@@ -1,0 +1,1 @@
+- @workspace explain what does bind_tools method do ? 

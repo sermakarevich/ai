@@ -11,3 +11,4 @@
 9. [**Twitter Grok**](https://x.com/i/grok)
 10. [**Deepseek**](https://chat.deepseek.com/) - Free to use, though the free version has a smaller context length compared to the paid version. 
 11. [**Cerebrascoder**](https://cerebrascoder.com/) - An application builder designed to streamline the development process.
+12. [**WEB LLM Chat**](https://chat.webllm.ai/#/chat) under 10 LLM providers.
