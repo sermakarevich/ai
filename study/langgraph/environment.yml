@@ -14,4 +14,7 @@ dependencies:
     - langchain_openai
     - tavily-python 
     - langchain_community
-    - pygraphviz
+    - langchainhub
+    - langchain_text_splitters
+    - chromadb
+    
