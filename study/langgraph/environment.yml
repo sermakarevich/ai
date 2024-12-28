@@ -14,3 +14,4 @@ dependencies:
     - langchain_openai
     - tavily-python 
     - langchain_community
+    - pygraphviz
